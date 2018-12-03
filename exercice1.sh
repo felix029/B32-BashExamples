@@ -5,6 +5,7 @@
 
 read -p "Entrez un mot: " mot
 
+# wget mis entre 2 accents graves!
 Rep=`wget -qO - http://dictionary.objectif8.com/exists.php?word=$mot`
 
 if test $Rep = 1
