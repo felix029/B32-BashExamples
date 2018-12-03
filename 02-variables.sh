@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # IL NE DOIT PAS Y AVOIR D'ESPACE ENTRE prenom=KimCharles sinon marchera pas
+# C'est une des seules occasions où on colle au = sans espace
 prenom=KimCharles
 echo $prenom
 

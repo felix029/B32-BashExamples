@@ -13,5 +13,6 @@ echo -e "123\n123\n123\n\t123"
 # read est l'équiv. de cin en C++
 # Quand on met quelque chose dans une variable = pas de $
 # Quand on va CHERCHER la valeur d'une variable = $
+# Le -p veux dire que  le read inclura un message
 read -p "Vous avez quel âge? " age
 echo $age "ans! Vous paraissez plus vieux..."
