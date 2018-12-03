@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#ATTENTION, BASH N'AIME PAS LES FONCTIONS VIDES!
+
 maFonction() {
 	echo "paramètre : $1"
 }
